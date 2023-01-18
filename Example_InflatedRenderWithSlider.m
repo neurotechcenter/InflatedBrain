@@ -46,6 +46,6 @@ view([-90 0]);
 
 %% add slider
 
-slhan=uicontrol('style','slider','position',[150 0 400 40] ...
+slhan=uicontrol('style','slider','position',[100 0 400 40] ...
     ,'min',0,'max',1,'Value',h.Inflation,'Callback',@(x,y)set(h,'Inflation',x.Value));
 

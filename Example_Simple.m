@@ -32,7 +32,7 @@ hold on;
 h_scatter=inflatablescatter3(h_surf,eLocs(:,1), ... %x coordinates
     eLocs(:,2), ... % y coordinates
     eLocs(:,3), ...% z coordinates
-    300,'filled','MarkerFaceColor','r','MarkerEdgeColor','k','LineWidth',3); %see scatter3 for all options
+    100,'filled','MarkerFaceColor','r','MarkerEdgeColor','k','LineWidth',3); %see scatter3 for all options
 
 h_scatter.Inflation=0; % changing inflation on inflatablescatter3 will also morph the surface
 

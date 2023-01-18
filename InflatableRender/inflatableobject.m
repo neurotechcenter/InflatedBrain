@@ -111,7 +111,7 @@ classdef (Abstract)  inflatableobject < handle & dynamicprops
 
     methods (Access = private)
         function internalUpdateInflation(obj)
-            obj.inflated_xyz=(obj.Inflation)*obj.xyz1 + (1-obj.Inflation)*obj.xyz2;
+            obj.inflated_xyz=(1-obj.Inflation)*obj.xyz1 + (obj.Inflation)*obj.xyz2;
             obj.updateInflation();
         end
 

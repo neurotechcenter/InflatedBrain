@@ -31,8 +31,9 @@ set(l1,'Position',[-1 0 1]);
 colormap(s1,flipud(gray(100))); % use a grey colormap
 clim(max(abs(ci))*[-1 1]);
 axis equal
-h.Inflation=0;
+
 view([-90 0]);
+h.Inflation=1;
 
 title('Continous Colormap');
 
@@ -62,6 +63,6 @@ set(l1,'Position',[-1 0 1]);
 colormap(s2,[0.7 0.7 0.7;0.5 0.5 0.5]); % use two shades of gray to plot binary map
 
 axis equal
-h.Inflation=0;
+h.Inflation=1;
 view([-90 0]);
 title('Binary Colormap');
