@@ -8,4 +8,4 @@ To overcome this challenge, we developed a novel visualization concept, allowing
 
 # Usage
 
-Check out the three Examples in the Repository!
+Check out the Examples in the Repository!
