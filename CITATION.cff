@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Adamek"
+  given-names: "Markus"
+  orcid: "https://orcid.org/0000-0001-8519-9212"
+- family-names: "Brunner"
+  given-names: "Peter"
+  orcid: "https://orcid.org/0000-0002-2588-2754"
+- family-names: "Hermes"
+  given-names: "Dora"
+  orcid: "https://orcid.org/0000-0002-8683-8909"
+title: "Dynamic Visualization of Gyral and Sulcal Stereoelectroencephalographic GitHub Repository"
+version: 1.0.0
+doi: 10.5281/zenodo.7576421
+date-released: 2023-01-27
+url: "https://github.com/neurotechcenter/InflatedBrain"
