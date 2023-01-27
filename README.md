@@ -1,4 +1,5 @@
 # Dynamic Visualization of Gyral and Sulcal Stereoelectroencephalographic
+[![DOI](https://zenodo.org/badge/590204011.svg)](https://zenodo.org/badge/latestdoi/590204011)
 
 Stereoelectroencephalography (SEEG) is a neurosurgical method to survey electrophysiological activity within the brain to treat disorders such as Epilepsy. In this stereotactic approach, leads are implanted through straight trajectories to survey both cortical and sub-cortical activity.
 
