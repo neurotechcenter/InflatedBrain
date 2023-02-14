@@ -83,7 +83,7 @@ end
 
 h_surf.Inflation = 1;
 
-inflation_steps = [0:.01:1];
+inflation_steps = [[0:.02:1],[1:-0.02:0]];
 
 % get frames to plot
 for kk = 1:length(inflation_steps)% write X frames: decides speed
